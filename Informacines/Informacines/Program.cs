@@ -17,7 +17,8 @@ namespace Informacines
             ApplicationDbContext context = new ApplicationDbContext();
             ProjectsRepository repository = new ProjectsRepository(context);
             List<Project> projects = repository.GetAll();
-            foreach(Project project in projects)
+            //labas
+            foreach (Project project in projects)
             {
                 Console.WriteLine(project.Title);
             }
