@@ -1,1 +1,15 @@
 D:\LaikoSekimoSistemaGit\Informacines\Informacines\bin\Debug\Informacines.exe.config
+D:\LaikoSekimoSistemaGit\Informacines\Informacines\bin\Debug\Informacines.exe
+D:\LaikoSekimoSistemaGit\Informacines\Informacines\bin\Debug\Informacines.pdb
+D:\LaikoSekimoSistemaGit\Informacines\Informacines\bin\Debug\EntityFramework.dll
+D:\LaikoSekimoSistemaGit\Informacines\Informacines\bin\Debug\EntityFramework.SqlServer.dll
+D:\LaikoSekimoSistemaGit\Informacines\Informacines\bin\Debug\MySql.Data.dll
+D:\LaikoSekimoSistemaGit\Informacines\Informacines\bin\Debug\MySql.Data.Entity.EF6.dll
+D:\LaikoSekimoSistemaGit\Informacines\Informacines\bin\Debug\MySql.Web.dll
+D:\LaikoSekimoSistemaGit\Informacines\Informacines\bin\Debug\EntityFramework.xml
+D:\LaikoSekimoSistemaGit\Informacines\Informacines\bin\Debug\EntityFramework.SqlServer.xml
+D:\LaikoSekimoSistemaGit\Informacines\Informacines\obj\Debug\Informacines.csprojResolveAssemblyReference.cache
+D:\LaikoSekimoSistemaGit\Informacines\Informacines\obj\Debug\Informacines.Properties.Resources.resources
+D:\LaikoSekimoSistemaGit\Informacines\Informacines\obj\Debug\Informacines.csproj.GenerateResource.Cache
+D:\LaikoSekimoSistemaGit\Informacines\Informacines\obj\Debug\Informacines.exe
+D:\LaikoSekimoSistemaGit\Informacines\Informacines\obj\Debug\Informacines.pdb

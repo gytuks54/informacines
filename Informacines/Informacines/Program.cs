@@ -14,6 +14,13 @@ namespace Informacines
         [STAThread]
         static void Main()
         {
+            ApplicationDbContext context = new ApplicationDbContext();
+            ProjectsRepository repository = new ProjectsRepository(context);
+            List<Project> projects = repository.GetAll();
+            foreach(Project project in projects)
+            {
+                Console.WriteLine(project.Title);
+            }
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
             Application.Run(new Form1());
