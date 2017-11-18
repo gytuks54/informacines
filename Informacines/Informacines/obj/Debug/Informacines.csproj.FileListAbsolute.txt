@@ -13,3 +13,8 @@ D:\LaikoSekimoSistemaGit\Informacines\Informacines\obj\Debug\Informacines.Proper
 D:\LaikoSekimoSistemaGit\Informacines\Informacines\obj\Debug\Informacines.csproj.GenerateResource.Cache
 D:\LaikoSekimoSistemaGit\Informacines\Informacines\obj\Debug\Informacines.exe
 D:\LaikoSekimoSistemaGit\Informacines\Informacines\obj\Debug\Informacines.pdb
+D:\LaikoSekimoSistemaGit\Informacines\Informacines\obj\Debug\Informacines.Form1.resources
+D:\LaikoSekimoSistemaGit\Informacines\Informacines\bin\Debug\Microsoft.AspNet.Identity.Core.dll
+D:\LaikoSekimoSistemaGit\Informacines\Informacines\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.dll
+D:\LaikoSekimoSistemaGit\Informacines\Informacines\bin\Debug\Microsoft.AspNet.Identity.Core.xml
+D:\LaikoSekimoSistemaGit\Informacines\Informacines\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.xml

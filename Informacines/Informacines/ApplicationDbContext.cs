@@ -10,5 +10,6 @@ namespace Informacines
     class ApplicationDbContext : DbContext
     {
         public DbSet<Project> Projects { get; set; }
+        public DbSet<AspNetUsers> Users { get; set; }
     }
 }
