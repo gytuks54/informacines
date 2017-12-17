@@ -12,13 +12,17 @@ using System.Windows.Forms;
 
 namespace Informacines
 {
-    public partial class Form1 : Form
+    public partial class LogInForm : Form
     {
         ApplicationDbContext context = new ApplicationDbContext();
         List<Project> projects = new List<Project>();
         List<AspNetUsers> users = new List<AspNetUsers>();
 
-        public Form1()
+        public AspNetUsers LoggedInUser { get; set; }
+
+        public bool IsLoggedIn = false;
+
+        public LogInForm()
         {
             InitializeComponent();
 
@@ -33,6 +37,15 @@ namespace Informacines
         private void logInButton_Click(object sender, EventArgs e)
         {
            MessageBox.Show(VerifyUser().ToString());
+        //    IsLoggedIn = true;
+            if (IsLoggedIn)
+            {
+                Hide();
+                MainFormUI form = new MainFormUI();
+                //  Application.Run(new MainFormUI());
+                //   form.Activate();
+                form.Show();
+            }
         }
 
         public static bool VerifyHashedPassword(string hashedPassword, string password)
@@ -82,10 +95,21 @@ namespace Informacines
                 MessageBox.Show("User does not exist");
                 return false;
             }
-
+            LoggedInUser = user;
             //   PasswordHash.ValidatePassword(pwdTextbox.Text, user.PasswordHash);
             //  PasswordVerificationResult passwordVerRes = new PasswordHasher().VerifyHashedPassword(user.PasswordHash, pwdTextbox.Text);
-              return VerifyHashedPassword(user.PasswordHash, pwdTextbox.Text);
+            IsLoggedIn = true;   // VerifyHashedPassword(user.PasswordHash, pwdTextbox.Text);
+            return IsLoggedIn;
+        }
+
+        private void LogInForm_Load(object sender, EventArgs e)
+        {
+           
+        }
+
+        public AspNetUsers GetUser()
+        {
+            return LoggedInUser;
         }
     }
 }

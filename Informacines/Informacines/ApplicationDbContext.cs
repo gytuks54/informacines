@@ -11,5 +11,6 @@ namespace Informacines
     {
         public DbSet<Project> Projects { get; set; }
         public DbSet<AspNetUsers> Users { get; set; }
+        public DbSet<ProjectMembers> ProjectMembers { get; set; }
     }
 }
